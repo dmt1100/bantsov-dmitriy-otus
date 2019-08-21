@@ -1,0 +1,15 @@
+{
+  "name": "javascript-3",
+  "version": "1.0.0",
+  "description": "homework javascript-3",
+  "main": "request.js",
+  "scripts": {
+    "test": "node request.js",
+    "start": "node server.js"
+  },
+  "author": "dmitriy bantsov",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}

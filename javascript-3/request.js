@@ -37,7 +37,4 @@ function request(N, isAsync) {
         }
     }
 }
-console.log("1. SYNC...");
-request(5, false);
-console.log("2. ASYNC...");
-request(5,true);
+request(process.argv[2], process.argv[3]);
